@@ -40,10 +40,6 @@ function Register ( props ){
     onRegister(userData);
   }
 
-  function closeTooltipPopup() {
-    setIsInfoToolTipOpen(false);
-  }
-
   return (
     <div className="auth-form">
       <form className="auth-form__form" onSubmit={handleSubmit}>
