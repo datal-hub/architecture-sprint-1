@@ -73,6 +73,7 @@ module.exports = {
       exposes: {},
       shared: {
         ...deps,
+        'contexts': { singleton: true },
         react: {
           singleton: true,
           requiredVersion: deps.react,

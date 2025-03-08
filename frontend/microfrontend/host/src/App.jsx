@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import {Route, useHistory, Switch, BrowserRouter} from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { CurrentUserContext } from "./contexts/CurrentUserContext";
+import { CurrentUserContext } from "contexts";
 import ProtectedRoute from "./components/ProtectedRoute";
 import CheckToken from "auth/CheckToken";
 
